@@ -51,6 +51,29 @@ For each selected city, the first hotel within 10,000 meters of the city's coord
 
 This visualization can be used to identify ideal vacation spots based on weather conditions.
 
+
+
+Files 
+
+The analysis includes the following files:
+
+WeatherPy.ipynb - Jupyter Notebook that contains the code for analysis.
+
+VacationPy.ipynb -  Jupyter Notebook that contains the code for analysis.
+
+cities.csv - Dataframe created in WeatherPy.ipynb saved to the csv file.
+
+Four PNG files that stores the graph created in WeatherPy 
+
+
 Conclusion:
-WeatherPy reveals significant correlations between latitude and weather variables, showing how proximity to the equator affects temperature, humidity, cloudiness, and wind speed.
-VacationPy provides a practical application of the weather data, helping users identify cities with ideal vacation conditions and nearby accommodations.
+Latitude and Max Temperature: In the Northern Hemisphere, there is a negative correlation. As the Latitude increases, the maximum temperature decreases. Whereas, in the Southern hemisphere, there is a positive correlation. As the Latitude increases, the maximum temperature increases. 
+
+Latitude and Humidity: There is no correlation between Latitude and Humidity in northern or Southern Hemisphere.
+
+Latitude and Cloudiness: There is no correlation between Latitude and Cloudiness in Northern or Southern Hemisphere.
+
+Latitude and Wind Speed: There is no correlation between Latitude and Wind Speed in Northern or Southern Hemisphere.
+
+
+
